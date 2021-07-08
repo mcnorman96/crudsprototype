@@ -11,6 +11,7 @@ const ProjectDetails = (props) => {
       <div className="container">
         <div className="col-sm-10 m-auto">
           <div className="card">
+          <img className="card-img-top" src={require('../images/' + project.img)} alt="movieimg" />
             <div className="card-body">
               <h2 className="card-title">{project.title}</h2>
               <p>{project.content}</p>
